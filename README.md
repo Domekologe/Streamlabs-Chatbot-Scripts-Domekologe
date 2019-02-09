@@ -7,18 +7,18 @@ or
 2. Click on import in Chatbot and select the .zip archive.
 
 ## Overwatch Random Hero Picker
-Usage:	!owrandom **or** !owrandom user1 user2 user3 ... (up to six users)
+Usage:	!owrandom **or** !owrandom user1 user2 user3 ... (up to six users) <br />
 	every user is space seperated.
-Description:	This script will take a random hero and assign this to one user.
-	There are two built-in spam protections.
-	1. Global Cooldown und User Cooldown setting
-	2. A maximum of 6 Users are allowed
+Description:	This script will take a random hero and assign this to one user. <br />
+	There are two built-in spam protections. <br />
+	1. Global Cooldown und User Cooldown setting <br />
+	2. A maximum of 6 Users are allowed <br /><br />
 	
 	
 
-Example Output:
-The following users must pick the following hero!
-User1 = Bastion
-User2 = Zenyatta
-User3 = Tracer
+Example Output: <br />
+The following users must pick the following hero! <br />
+User1 = Bastion <br />
+User2 = Zenyatta <br />
+User3 = Tracer <br />
 User4 = Sombra
