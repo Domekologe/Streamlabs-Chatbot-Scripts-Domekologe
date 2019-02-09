@@ -2,13 +2,13 @@
 
 ## Installation
 1. Download the master-branch
-2. Put the content into the scripts folder of Streamlabs Chatbot.
-or
-2. Click on import in Chatbot and select the .zip archive.
+2. Put the content into the scripts folder of Streamlabs Chatbot <br />
+or <br />
+2. Click on import in Chatbot and select the .zip archive <br /><br />
 
 ## Overwatch Random Hero Picker
 Usage:	!owrandom **or** !owrandom user1 user2 user3 ... (up to six users) <br />
-	every user is space seperated.
+	every user is space seperated. <br /> <br />
 Description:	This script will take a random hero and assign this to one user. <br />
 	There are two built-in spam protections. <br />
 	1. Global Cooldown und User Cooldown setting <br />
