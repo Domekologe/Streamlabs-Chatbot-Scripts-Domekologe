@@ -21,4 +21,6 @@ The following users must pick the following hero! <br />
 User1 = Bastion <br />
 User2 = Zenyatta <br />
 User3 = Tracer <br />
-User4 = Sombra
+User4 = Sombra <br /><br />
+
+Hero Date: 09. February 2019
