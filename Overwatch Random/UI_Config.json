@@ -76,7 +76,7 @@
         "type": "textbox",
         "value": "The following users must pick the following hero!",
         "label": "First Message",
-        "tooltip": This will be the first message that will come before the selection begins!",
+        "tooltip": "This will be the first message that will come before the selection begins!",
         "group": "Response Messages"
     },
 	"response": {
