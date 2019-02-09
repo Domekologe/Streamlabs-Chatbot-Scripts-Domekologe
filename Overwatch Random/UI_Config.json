@@ -81,7 +81,7 @@
     },
 	"response": {
         "type": "textbox",
-        "value": "$user you have only $points $currency to flip the coin.",
+        "value": "$user = $hero",
         "label": "Response Message",
         "tooltip": "Message that will be posted as result",
         "group": "Response Messages"

@@ -9,5 +9,6 @@
   "userCooldown": 120,
   "onUserCooldown": "$user, please wait $cd seconds before you can start a next random pick!",
   "response": "$user = $hero",
-  "TooMuch": "Too Many Names. Please stay below on 7!"
+  "TooMuch": "Too Many Names. Please stay below on 7!",
+  "FirstMessage": "The following users must pick the following hero!"
 };
