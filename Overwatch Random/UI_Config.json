@@ -1,0 +1,89 @@
+{
+    "output_file": "config.json",
+
+    "liveOnly": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Live Only Mode",
+        "tooltip": "True if you want it to only run when you are live",
+        "group" : "General"
+    },
+    "command": {
+        "type": "textbox",
+        "value": "!owrandom",
+        "label": "Command",
+        "tooltip": "Name of the command (The user must write this in the chat)",
+        "group": "General"
+    },
+    "permission": {
+        "type": "dropdown",
+        "value": "Everyone",
+        "items": ["Everyone","Regular","Subscriber","Moderator","Editor"],
+        "label": "Permission level",
+        "tooltip": "Set the permission level for the command, who can use this command",
+        "group": "General"
+    },
+    "useCooldown": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Use Cooldowns",
+        "tooltip": "Enable/Disable cooldown and user cooldown",
+        "group": "Cooldown"
+    },
+    "useCooldownMessages": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Use Cooldown Messages",
+        "tooltip": "Enable/Disable cooldown messages",
+        "group": "Cooldown"
+    },
+    "cooldown": {
+        "type": "numberbox",
+        "label": "Cooldown (seconds)",
+        "value": 1,
+        "tooltip": "Cooldown in seconds.",
+        "group": "Cooldown"
+    },
+    "onCooldown": {
+        "type": "textbox",
+        "value": "$user, $command is still on global cooldown for $cd minutes!",
+        "label": "Cooldown Response",
+        "tooltip": "The message that the bot will display when the command is on cooldown. \r\n $user = Username \r\n $cd = Time remaining \r\n $command = Command name",
+        "group": "Cooldown"
+    },
+    "userCooldown": {
+        "type": "numberbox",
+        "label": "User Cooldown (seconds)",
+        "value": 120,
+        "tooltip": "User cooldown in seconds.",
+        "group": "Cooldown"
+    },
+    "onUserCooldown": {
+        "type": "textbox",
+        "value": "$user, $command is still on user cooldown for $cd minutes!",
+        "label": "User Cooldown Response",
+        "tooltip": "The message that the bot will display when the command is on user cooldown. \r\n $user = Username \r\n $cd = Time remaining \r\n $command = Command name",
+        "group": "Cooldown"
+    },
+	"TooMuch": {
+        "type": "textbox",
+        "value": "Zuviele Namen eingegeben. Bleibe unter 7!",
+        "label": "Too Much Message",
+        "tooltip": "The message what will be send when a user give too many names with the command",
+        "group": "Too Much"
+    },
+    "FirstMessage": {
+        "type": "textbox",
+        "value": "The following users must pick the following hero!",
+        "label": "First Message",
+        "tooltip": This will be the first message that will come before the selection begins!",
+        "group": "Response Messages"
+    },
+	"response": {
+        "type": "textbox",
+        "value": "$user you have only $points $currency to flip the coin.",
+        "label": "Response Message",
+        "tooltip": "Message that will be posted as result",
+        "group": "Response Messages"
+    }
+}
