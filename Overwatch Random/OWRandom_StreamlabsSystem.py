@@ -16,7 +16,7 @@ Version = "1.0.0"
 configFile = "config.json"
 settings = {}
 
-owheroes = ["Ana","Ashe","Bastion","Brigitte","D.Va","Doomfist","Genji","Hanzo","Junkrat","Lúcio","McCree","Mei","Mercy","Moira","Orisa","Pharah","Reaper","Reinhardt","Roadhog","Soldier: 76","Sombra","Symmetra","Torbjörn","Tracer","Widowmaker","Winston","Wrecking Ball","Zarya","Zenyatta"] 
+owheroes = ["Ana","Ashe","Baptiste","Bastion","Brigitte","D.Va","Doomfist","Genji","Hanzo","Junkrat","Lúcio","McCree","Mei","Mercy","Moira","Orisa","Pharah","Reaper","Reinhardt","Roadhog","Soldier: 76","Sombra","Symmetra","Torbjörn","Tracer","Widowmaker","Winston","Wrecking Ball","Zarya","Zenyatta"] 
 
 def ScriptToggled(state):
 	return
